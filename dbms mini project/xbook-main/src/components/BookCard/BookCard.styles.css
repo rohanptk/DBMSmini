@@ -1,0 +1,64 @@
+.books-result-container{
+    width: 100%;
+    background-color: #EDEEEC;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book-container{
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+.book-container:last-child{
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+.book-container:nth-of-type(4n+1){
+    margin-left: 0px;
+}
+
+.book-cover-image{
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.book-container:hover .book-cover-image{
+    opacity: 0.3;
+}
+
+.book-info-container{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.book-container:hover .book-info-container{
+    opacity: 0.3;
+}
+
+
+.buy-button{
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    width: 100px;
+    height: 40px;
+    background-color: #00A96C;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+    border: none;
+}
+
+.book-container:hover .buy-button{
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+
+.landing{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEEEC;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: #EDEEEC;
+}
+
+.logo-container{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container > img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-link-container{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.nav-link-container > ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin: 0%;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none!important;
+    color: black;
+}
+
+.home-section{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.explore-button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #00A96C;
+    color: white;
+    cursor: pointer;
+}
+
+.home-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.cover-image{
+    width: 50% !important;
+    height: auto;
+}
+

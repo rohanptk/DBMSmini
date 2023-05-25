@@ -1,0 +1,84 @@
+.sell-page-container {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+.book-cover-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.book-details-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.book-dummy-container {
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.book-details-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.book-details-form>input {
+    height: 30px;
+    margin-bottom: 20px;
+    width: 80%;
+    outline-color: #00A96C;
+}
+
+.book-details-form>button {
+    background-color: #00A96C;
+    color: white;
+    height: 50px;
+    width: 50%;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.book-details-form>button:disabled {
+    background-color: grey;
+    color: white;
+    height: 50px;
+    width: 50%;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-cover-image-container {
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.uploaded-book-cover{
+    width: 100%;
+    height: 100%;
+}

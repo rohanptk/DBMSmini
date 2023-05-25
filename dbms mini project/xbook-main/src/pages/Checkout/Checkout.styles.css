@@ -1,0 +1,49 @@
+.checkout-content-section {
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    background-color: #EDEEEC;
+    flex-direction: row;
+}
+
+.cover-image-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-detail-section{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-image-section > img{
+    width: 50%;
+    height: 70%;
+}
+
+.book-details-container-checkout{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-details-container-checkout > h2{
+    text-align: center;
+}
+
+.book-details-container-checkout > button{
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: #00A96C;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+}

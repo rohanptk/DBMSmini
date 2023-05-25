@@ -1,0 +1,102 @@
+.auth-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEEEC;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: #EDEEEC;
+}
+
+.logo-container{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container > img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-link-container{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.nav-link-container > ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin: 0%;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none!important;
+    color: black;
+}
+
+.auth-form-section{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form-container{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.auth-form-container > input{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 30px;
+    outline: none !important;
+    border: solid black 2px;
+}
+
+.auth-form-container > input:focus{
+    border: solid #00A96C 2px;
+}
+
+.auth-form-container > button{
+    width: 50%;
+    height: 40px;
+    background-color: #00A96C;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.auth-form-container > button:disabled{
+    background-color: grey;
+    color: black;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.switch-span{
+    color: #00A96C;
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+.buy-section-container{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.book-not-found-container{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.search-container{
+    
+    background-color: white;
+    height: 50px;
+    display: flex;
+}
+
+.search-container > input{
+    border: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    outline: none !important;
+}
+
+
+
+.search-container > button {
+    width: 150px;
+    margin: 5px;
+    background-color: #00A96C;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.books-result-container{
+    width: 100%;
+    min-height: calc(100vh - 170px);
+    background-color: #EDEEEC;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book-container{
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.book-container > img{
+    width: 100%;
+    height: auto;
+}
+.error-and-loading-container{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
